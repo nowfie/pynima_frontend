@@ -1,0 +1,329 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="full" id="full">
+    {% load static %}
+    
+    <img src="{% static "images/home-bg-1.png" %}" alt="" class="img-fluid home-bg">
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-1">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-2">
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-3">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-4">
+    <section class="col-12 py-5 " id="home-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto pb-5" id="home-main">
+            <div class="row home-box">
+                <div class="col-lg-6 col-12 order-lg-0 order-1">
+                    <div class="home-content">
+                        <h5 class='py-2 px-3 mb-4' > <i class="fa fa-dollar p-2 me-2" aria-hidden="true"></i> Discover a new ways to enjoy your World!</h5>
+                        <h1 class='mb-3'>Empowering the Future with Internet of Things</h1>
+                        <p>Innovation is the engine driving evolution, transforming ideas into the currency of progress. It's the constant pursuit of a better way, crafting tomorrow's solutions today</p>
+                        <div class="links-box mt-lg-4 mt-5 d-flex">
+                            <a href="#tech" class="read-btn home-button px-lg-5 px-4 py-3 my-auto">Get's Started</a>
+                            <a href="#" class="play-btn ms-lg-5 ms-4"><i class="fa fa-play me-3 p-3" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-11  home-img mb-5">
+                    {% load static %}
+                    <img src="{% static "images/home-1-test.svg" %}" alt="" class='brain' >
+                    <img src="{% static "images/home-5-test.svg" %}" alt="" class="road img-fluid">
+                    <img src="{% static "images/home-5-test.svg" %}" alt="" class="road-2 img-fluid">
+                    <img src="{% static "images/home-2-test.svg" %}" alt="" class="robot img-fluid">
+                    <img src="{% static "images/home-3-test.svg" %}" alt="" class="ball-1 img-fluid">
+                    <img src="{% static "images/home-3-test.svg" %}" alt="" class="ball-2 img-fluid">
+                    <img src="{% static "images/home-4-test.svg" %}" alt="" class="img-fluid cube-1">
+                    <img src="{% static "images/home-4-test.svg" %}" alt="" class="img-fluid cube-2">
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="tech-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id='tech'>
+            <h5 class='text-center mb-3' data-aos='fade-up'>Featured Services</h5>
+            <h1 class='text-center mb-5' data-aos='fade-up'>Engaging Creative Minds Via Technology</h1>
+            <div class="row col-12 m-auto tech-flex mt-5 justify-content-between">
+                <div class="col-lg-4 col-11 tech-box text-center p-lg-4  p-4  mt-3 my-2 " data-aos='fade-up'>
+                    <i class="fa-solid fa-lightbulb p-3 mb-3 t-1" aria-hidden="true"></i>
+                    <h6>Creative Ideas</h6>
+                    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="col-lg-4 col-11 tech-box text-center p-lg-4  p-4  mt-3 my-2 " data-aos='fade-up'>
+                    <i class="fa-solid fa-people-group p-3 mb-3 t-2" aria-hidden="true"></i>
+                    <h6>Team Management</h6>
+                    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="col-lg-4 col-11 tech-box text-center p-lg-4  p-4  mt-3 my-2 tech-3" data-aos='fade-up'>
+                    <i class="fa-regular fa-thumbs-up p-3 mb-3 t-3" aria-hidden="true"></i>
+                    <h6>Successfull Projects</h6>
+                    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="about-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="about">
+            <div class="row justify-content-between">
+                <div class="col-lg-5 mb-lg-0 mb-5">
+                    <h5 class='mb-3'  data-aos='fade-right'>Core Features</h5>
+                    <h1 class='mb-4' data-aos='fade-right'>We're A Software Company That Provide Solutions</h1>
+                    <p class='mb-5' data-aos='fade-right'>Passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+                    <div class="about-box d-flex mb-4" data-aos='fade-up'>
+                        <div class="about-icon">
+                            <i class="fa fa-signal me-4 ab-1" aria-hidden="true"></i>
+                        </div>
+                        <div class="about-content">
+                            <h3 class='mb-3'>Soft Engineering</h3>
+                            <p>Simply dummy text of the and typesetting has been the industry’s standard dummy text.</p>
+                        </div>
+                    </div>
+                    <div class="about-box d-flex mb-5" data-aos='fade-up'>
+                        <div class="about-icon">
+                            <i class="fa-regular fa-handshake me-4 ab-2" aria-hidden="true"></i>
+                        </div>
+                        <div class="about-content">
+                            <h3 class='mb-3'>Soft Engineering</h3>
+                            <p>Simply dummy text of the and typesetting has been the industry’s standard dummy text.</p>
+                        </div>
+                    </div>
+                    <a href="{% url "about" %}" class="read-btn px-4 py-3" data-aos='fade-up'>About us</a>
+                </div>
+                <div class="col-lg-6 m-auto" data-aos='fade-left'>
+                    <img src="{% static "images/home-2.webp" %}" alt="" class="img-fluid m-auto">
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 d-flex justify-content-center align-items-center pt-5" id="header-main" >
+        <div class="header col-lg-11 col-xl-9 col-12 m-lg-auto m-0 p-lg-5 py-lg-5 py-5 px-3  d-flex flex-lg-row flex-column justify-content-lg-between" data-aos='fade-in'>
+            <div class="header-one my-auto mb-lg-0 mb-4">
+                <h1 class='text-lg-start text-center mb-3'>Let's Start A Cool Project With Softek!</h1>
+                <p class='text-lg-start text-center'>We Provide Best Solution For Your Business</p>
+            </div>
+            <div class="header-two my-lg-auto my-0 mx-auto mx-lg-0">
+                <a href="{% url "product" %}" class="read-btn px-4 py-3">Discover More</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="col-12 py-5 " id="update-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="update">
+            <div class="row col-12 m-auto justify-content-between align-items-center mt-lg-5 mt-0 py-5 py-lg-0">
+                <div class="col-lg-5 order-1 mt-0 mt-md-5 mt-lg-0 up-y">
+                    <h5 class='mb-3' data-aos='fade-left'>Core Features</h5>
+                    <h1 class='mb-5' data-aos='fade-left'>We Are Creative In Design & Development</h1>
+                    <div class="update-box d-flex mb-4">
+                        <div class="update-icon">
+                            <i class="fa fa-check me-4 ab-1" aria-hidden="true" data-aos='fade-in'></i>
+                        </div>
+                        <div class="update-content">
+                            <h3 class='mb-3' data-aos='fade-left'>Set Everything Up In Minutes</h3>
+                            <p data-aos='fade-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis</p>
+                        </div>
+                    </div>
+                    <div class="update-box d-flex mb-5">
+                        <div class="update-icon">
+                            <i class="fa fa-check me-4 ab-1" aria-hidden="true" data-aos='fade-in'></i>
+                        </div>
+                        <div class="update-content">
+                            <h3 class='mb-3' data-aos='fade-left'>A Seamless UI Experience</h3>
+                            <p data-aos='fade-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis</p>
+                        </div>
+                    </div>
+                    <a href="{% url "product" %}" class="read-btn px-4 py-3" data-aos='fade-left'>Discover More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row d-flex flex-row justify-content-between  up-y">
+                        <div class="col-lg-6 col-12 update-box-grid text-center p-4 up-1" data-aos='fade-right'>
+                            <i class="fa fa-cloud p-3 mb-4 t-1" aria-hidden="true"></i>
+                            <h3>Innovative Ideas</h3>
+                            <p>Vivamus ullamcorper text of the printing and typesetting</p>
+                        </div>
+                        <div class="col-lg-6 col-12 update-box-grid text-center p-4 my-md-0 my-4" data-aos='fade-right'>
+                            <i class="fa-solid fa-gear p-3 mb-4 t-2" aria-hidden="true"></i>
+                            <h3>Innovative Ideas</h3>
+                            <p>Vivamus ullamcorper text of the printing and typesetting</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between mt-md-4 mt-0  up-y">
+                        <div class="col-lg-6 col-12 update-box-grid text-center p-4 up-1" data-aos='fade-up'>
+                            <i class="fa-solid fa-chart-simple p-3 mb-4 t-3" aria-hidden="true"></i>
+                            <h3>Innovative Ideas</h3>
+                            <p>Vivamus ullamcorper text of the printing and typesetting</p>
+                        </div>
+                        <div class="col-lg-6 col-12 update-box-grid text-center p-4 my-md-0 my-4" data-aos='fade-up'>
+                            <i class="fa-solid fa-file p-3 mb-4 t-4" aria-hidden="true"></i>
+                            <h3>Innovative Ideas</h3>
+                            <p>Vivamus ullamcorper text of the printing and typesetting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="blog-home-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="blog-home">
+            <h5 class='text-center mb-3' data-aos='fade-up'>Technology solutions</h5>
+            <h1 class='text-center mb-5' data-aos='fade-up'>Latest News & Blog</h1>
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="blog-home-box">
+                        <img src="{% static "images/blog-1.jpeg" %}" alt="" class="img-fluid mb-4">
+                        <h4 class='px-3 py-2'>Technology</h4>
+                        <div class="blog-home-post">
+                            <span>Post On November 05, 2020 | By Mark Jones</span>
+                            <h3 class='mt-2'><a href="{% url "blog_ind" %}">5 Steps Forming A Tax-Exempt Nonprofit Corporation.</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="col-12 mb-4 mb-lg-0">
+                        <div class="blog-home-box-inner d-flex flex-lg-row flex-column gap-lg-4 gap-2 ">
+                            <img src="{% static "images/blog-2.jpeg" %}" alt="" class="img-fluid mb-4">
+                            <h4 class='px-3 py-2'>Technology</h4>
+                            <div class="blog-home-post">
+                                <span>Post On November 05, 2020 | By Mark Jones</span>
+                                <h3 class='mt-2'><a href="{% url "blog_ind" %}">Visual Identity System Is More Memorable</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 mb-lg-0">
+                        <div class="blog-home-box-inner d-flex flex-lg-row flex-column gap-lg-4 gap-2 ">
+                            <img src="{% static "images/blog-1.jpeg" %}" alt="" class="img-fluid mb-4">
+                            <h4 class='px-3 py-2'>Technology</h4>
+                            <div class="blog-home-post">
+                                <span>Post On November 05, 2020 | By Mark Jones</span>
+                                <h3 class='mt-2'><a href="{% url "blog_ind" %}">Visual Identity System Is More Memorable</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 mb-lg-0">
+                        <div class="blog-home-box-inner d-flex flex-lg-row flex-column gap-lg-4 gap-2 ">
+                            <img src="{% static "images/blog-4.jpeg" %}" alt="" class="img-fluid mb-4">
+                            <h4 class='px-3 py-2'>Technology</h4>
+                            <div class="blog-home-post">
+                                <span>Post On November 05, 2020 | By Mark Jones</span>
+                                <h3 class='mt-2'><a href="{% url "blog_ind" %}">Visual Identity System Is More Memorable</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="progress-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="progress">
+            <div class="row justify-content-between">
+                <div class="col-lg-6 order-1">
+                    <h5 class='mb-3' data-aos='fade-left'>Corporate Ideas</h5>
+                    <h1 class='mb-4' data-aos='fade-left'>Perfect Technology Solution Foa All Medium Business</h1>
+                    <p class='mb-4' data-aos='fade-left'>Nulla eleifend, lectus eu gravida facilisis, ipsum metus faucibus eros, vitae vulputate nibh libero ac metus</p>
+                    <div class="row">
+                        <div class="col-12 ser-ind-flex d-flex flex-column ">
+                            <label for="file" class='mb-2' data-aos='fade-left' >Creative thinking</label>
+                            <progress id="fileProgress" class='mb-4' value="95" max="100" data-aos='zoom-in' data-aos-delay='200'></progress>
+                            <label for="file" class='mb-2' data-aos='fade-left' data-aos-delay='300'>Communication</label>
+                            <progress id="fileProgress" class='mb-4' value="90" max="100" data-aos='zoom-in' data-aos-delay='400'></progress>
+                            <label for="file" class='mb-2' data-aos='fade-left' data-aos-delay='600'>Research</label>
+                            <progress id="fileProgress" class='mb-4' value="85" max="100" data-aos='zoom-in' data-aos-delay='650'></progress>
+                        </div>
+                    </div>
+                    <!--<a href="#" class="read-btn px-4 py-3">Discover More</a>-->
+                </div>
+                <div class="col-lg-5 me-auto" data-aos='fade-right'>
+                    <img src="{% static "images\19-min-7.webp" %}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="solution-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="solution">
+            <h5 data-aos='fade-up' class='text-center mb-4 <i class="fa fa-battery-3" aria-hidden="true"></i>'>Technology solutions</h5>
+            <h1 data-aos='fade-up'  class='text-center mb-3'>We Provide IT & Business Solutions</h1>
+            <p data-aos='fade-up'  class="solution-para text-center m-auto mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting has been the industry’s standard dummy text.Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            <div class="row solution-flex justify-content-center align-items-center gap-5">
+                <div class="col-lg-3 left">
+                    <div class="odd solution-box p-3 d-flex  flex-lg-row flex-column"  data-aos='fade-right' >
+                        <div class="solution-box-icon ms-0 order-lg-2 order-0 ms-lg-3">
+                            <i class="fa fa-plus p-3 mb-3 mb-lg-0" aria-hidden="true"></i>
+                        </div>
+                        <div class="solution-box-content">
+                            <h3>Product Engineering</h3>
+                            <p>Morbi vitae tristique sem, ut dignissim libero</p>
+                        </div>
+                    </div>
+                    <div class="my-lg-5 my-3 solution-box p-3 d-flex  flex-lg-row flex-column" data-aos='fade-right' >
+                        <div class="solution-box-icon ms-0 order-lg-2 order-0 ms-lg-3">
+                            <i class="fa fa-plus p-3 mb-3 mb-lg-0" aria-hidden="true"></i>
+                        </div>
+                        <div class="solution-box-content">
+                            <h3>Multifunction Services</h3>
+                            <p>Morbi vitae tristique sem, ut dignissim libero</p>
+                        </div>
+                    </div>
+                    <div class="odd solution-box p-3 d-flex  flex-lg-row flex-column" data-aos='fade-right' >
+                        <div class="solution-box-icon ms-0 order-lg-2 order-0 ms-lg-3">
+                            <i class="fa fa-plus p-3 mb-3 mb-lg-0" aria-hidden="true"></i>
+                        </div>
+                        <div class="solution-box-content">
+                            <h3>Achieve Real Results</h3>
+                            <p>Morbi vitae tristique sem, ut dignissim libero</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 solution-img"  data-aos='fade-in' >
+                    <img src="{% static "images/solution.webp" %}" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-3 right">
+                    <div class="odd solution-box p-3 d-flex  flex-lg-row flex-column"  data-aos='fade-left' >
+                        <div class="solution-box-icon ms-0  me-lg-3">
+                            <i class="fa fa-plus p-3 mb-3 mb-lg-0" aria-hidden="true"></i>
+                        </div>
+                        <div class="solution-box-content">
+                            <h3>App Development</h3>
+                            <p>Morbi vitae tristique sem, ut dignissim libero</p>
+                        </div>
+                    </div>
+                    <div class="my-lg-5 my-3 solution-box p-3 d-flex  flex-lg-row flex-column" data-aos='fade-left' >
+                        <div class="solution-box-icon ms-0  me-lg-3">
+                         <i class="fa fa-plus p-3 mb-3 mb-lg-0" aria-hidden="true"></i>
+                        </div>
+                        <div class="solution-box-content ">
+                            <h3>Reporting Analysis</h3>
+                            <p>Morbi vitae tristique sem, ut dignissim libero</p>
+                        </div>
+                    </div>
+                    <div class="odd solution-box p-3 d-flex flex-lg-row flex-column" data-aos='fade-left' >
+                        <div class="solution-box-icon ms-0  me-lg-3">
+                         <i class="fa fa-plus p-3 mb-3 mb-lg-0" aria-hidden="true"></i>
+                        </div>
+                        <div class="solution-box-content">
+                            <h3>24/7 Services</h3>
+                            <p>Morbi vitae tristique sem, ut dignissim libero</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="world-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto pt-5" id="world">
+            <div class="round round-1"></div>
+            <div class="round round-2"></div>
+            <div class="round round-3"></div>
+            <div class="round round-4"></div>
+            <img src="{% static "images/21-7.png" %}" alt="" class="img-people-1 img-fluid"  data-aos='fade-in' >
+            <img src="{% static "images/22-7.png" %}" alt="" class="img-people-2 img-fluid"  data-aos='fade-in' >
+            <img src="{% static "images/23-7.png" %}" alt="" class="img-people-3 img-fluid"  data-aos='fade-in' >
+            <img src="{% static "images/24-7.png" %}" alt="" class="img-people-4 img-fluid"  data-aos='fade-in' >
+            <img src="{% static "images/25-7.png" %}" alt="" class="img-people-5 img-fluid"  data-aos='fade-in' >
+            <img src="{% static "images/20-7.png" %}" alt="" class="img-people-6 img-fluid"  data-aos='fade-in' >
+            
+            <div class="world-content d-flex flex-column align-items-center justify-content-center">
+                <h5 data-aos='fade-up'  class='text-center mb-4 <i class="fa fa-battery-3" aria-hidden="true"></i>'>Contact with us</h5>
+                <h1 data-aos='fade-up'  class='text-center mb-3'>Get A Free Consultancy Right Now!</h1>
+                <h2 data-aos='fade-up'  class='text-center mb-4'>Start Working With Us</h2>
+                <a data-aos='fade-in'  href="{% url "contact" %}" class="read-btn text-center m-auto px-5 py-3">Get's Started</a>
+            </div>
+        </section>
+    </section>
+</div>
+{% endblock content %}

@@ -1,0 +1,53 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="full-x" id="full-x">
+    {% load static %}
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-1 s-a">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-2 s-c">
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-3">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-4">
+    <section class="col-12 d-flex justify-content-center align-items-center mb-5" id="indicator">
+        <h1 data-aos='fade-in'>Our Products</h1>
+    </section>
+    <section class="col-12 pb-5" id="product-main">
+        <section class="col-lg-11 col-xl-9  col-11 m-auto" id="product">
+            <!--<h5 class='text-center mb-3' data-aos='fade-up'>Technology solutions</h5>
+            <h1 class='text-center mb-5' data-aos='fade-up'>Latest News & product</h1>-->
+            <div class="row col-12 m-auto justify-content-between">
+                <div class="col-lg-4 col-12 product-box p-0 mb-5 " data-aos='fade-up'>
+                    {% load static %}
+                    <img src="{% static "images/blog-page-1.jpg" %}" alt="" class="img-fluid mb-0">
+                    <div class="product-box-content p-4">
+                        <h4>Data science <span>- 15 min ago</span></h4>
+                        <h1><a href="{% url "product_ind" %}">Make more daily productive working flow like pro.</a></h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 product-box p-0 mb-5 "  data-aos='fade-up'>
+                    {% load static %}
+                    <img src="{% static "images/blog-page-2.jpg" %}" alt="" class="img-fluid mb-0">
+                    <div class="product-box-content p-4">
+                        <h4>Data science <span>- 15 min ago</span></h4>
+                        <h1><a href="{% url "product_ind" %}">Make more daily productive working flow like pro.</a></h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 product-box p-0 mb-5 " data-aos='fade-up'>
+                    {% load static %}
+                    <img src="{% static "images/blog-page-3.jpg" %}" alt="" class="img-fluid mb-0">
+                    <div class="product-box-content p-4">
+                        <h4>Data science <span>- 15 min ago</span></h4>
+                        <h1><a href="{% url "product_ind" %}">Make more daily productive working flow like pro.</a></h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 product-box p-0 mb-5 " data-aos='fade-up'>
+                    {% load static %}
+                    <img src="{% static "images/blog-page-4.jpg" %}" alt="" class="img-fluid mb-0">
+                    <div class="product-box-content p-4">
+                        <h4>Data science <span>- 15 min ago</span></h4>
+                        <h1><a href="{% url "product_ind" %}">Make more daily productive working flow like pro.</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+{% endblock content %}

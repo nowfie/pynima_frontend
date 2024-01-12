@@ -1,0 +1,101 @@
+{% extends "main.html" %}
+{% block content %}
+<div id="full-x">
+    <section class="col-12 d-flex justify-content-center align-items-center mb-5" id="indicator">
+        <h1 data-aos='fade-in'>Latest updates</h1>
+    </section>
+    {% load static %}
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-1">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-2">
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-3">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-4">
+    <section class="col-12" id="blog-ind-main">
+        <section id="blog-ind" class="col-lg-11 col-xl-9 col-11 m-auto">
+            <div class="row justify-content-between">
+                <div class="col-lg-9 col-12 blog-ind-content">
+                    <h1 data-aos='fade-up'>Be Yourself, Everyone Else Is Already Taken.</h1>
+                    <div class="posted mb-3">
+                        <span data-aos='fade-up'> <i class="fa fa-user-circle me-2" aria-hidden="true"></i> Admin</span><span class='mx-3'><i class="fa fa-calendar me-2" aria-hidden="true"></i> Febraury 27,2024</span>
+                    </div>
+                    
+                    <p data-aos='fade-up'>People often say that motivation doesn’t last. Well, neither does bathing — that’s why we recommend it daily. Someday is not a day of the week. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <p data-aos='fade-up' class='mb-4'>Never ever think of giving up. Winners never quit and quitters never win. Take all negative words out of your mental dictionary and focus on the solutions.</p>
+                    <h3 data-aos='fade-up'>Be Yourself; Everyone Else Is Already Taken.</h3>
+                    <p data-aos='fade-up'>Never ever think of giving up. Winners never quit and quitters never win. Take all negative words out of your Mental Dictionary and focus on the solutions with utmost conviction and patience</p>
+                    <div class="blog-ind-center my-4 pt-4 px-5">
+                        <p data-aos='fade-up' class='mb-5'>Integer eleifend quis nunc a lobortis. Sed non nibh quis enim varius semper eget vitae lectus. Ut nibh sem, laoreet ac mauris eu, auctor semper diam. Duis nec laoreet est. Duis eget scelerisque magna. Etiam id ligula id libero semper tempus. Sed vestibulum urna a eleifend ultrices. Integer blandit vehicula consequat.</p>
+                        <h4 data-aos='fade-up'>Radiant Themes</h4>
+                    </div>
+                    <p data-aos='fade-up'>Aenean imperdiet dignissim pulvinar. Nullam faucibus nibh at egestas dignissim. Nunc euismod fringilla nisl, vitae efficitur arcu sagittis nec. Nam placerat nec felis id interdum. Morbi lacinia, ex vel porttitor aliquam, ante ligula suscipit est, et euismod nibh ante eu justo. Nunc euismod fringilla nisl, vitae efficitur arcu sagittis nec.</p>
+                    <div data-aos='fade-up' class="blog-ind-img row my-5">
+                        <div class="col-lg-6 col-12 mb-3 m-lg-0">
+                            {% load static %}
+                            <img data-aos='fade-up' src="{% static "images/blog-1.jpeg" %}" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <img data-aos='fade-up' src="{% static "images/blog-2.jpeg" %}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <h3 data-aos='fade-up'>The Start-Up Ultimate Guide To Make Your WordPress Journal.</h3>
+                    <p data-aos='fade-up' class='mb-5'>Never ever think of giving up. Winners never quit and quitters never win. Take all negative words out of your mental dictionary lorem and focus on the solutions with utmost conviction and patience.</p>
+                    <!--<div class="next-blog p-4 d-flex gap-3">
+                        <div class="next-blog-img">
+                            <img src="{% static "images/blog-1.jpeg" %}" alt="" class="img-fluid">
+                        </div>
+                        <div class="next-blog-content">
+                            <h6>Previous blog</h6>
+                            <p class='mb-0'>Planning your online business</p>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="col-lg-12 col-xl-3 col-12 blog-ind-links">
+                    <div data-aos='fade-up' class="blog-ind-links-profile p-4 justify-content-center d-flex flex-column mb-5">
+                        <img src="{% static "images/21-7.png" %}" alt="" class="img-fluid m-auto mb-3 p-2">
+                        <h3 class='text-center mb-4'>Admin name</h3>
+                        <p class="my4 text-center mb-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos!"</p>
+                        <div class="social-links m-auto">
+                            <i class="fab fa-linkedin p-2 ln" aria-hidden="true"></i>
+                            <i class="fab fa-facebook-f mx-3 p-2 fb" aria-hidden="true"></i>
+                            <i class="fa fa-envelope me-3 p-2 em" aria-hidden="true"></i>
+                            <i class="fab fa-twitter p-2 tx" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="latest-blogs">
+                        <h3 data-aos='fade-up' class='mb-4'>Latest Blogs</h3>
+                        <h6 data-aos='fade-up'>Be Yourself Everyone Else</h6>
+                        <span data-aos='fade-up' >Febraury 27,2024</span>
+                        <!--Loop here-->
+                        <div data-aos='fade-up' class="latest-blog-inner p-0 d-flex gap-3 my-4">
+                            <div class="latest-blog-inner-img">
+                                <img src="{% static "images/blog-2.jpeg" %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="latest-blog-inner-content">
+                                <h6 class='mb-2'>Planning your online business</h6>
+                                <span>Febraury 27,2024</span>
+                            </div>
+                        </div>
+                        <div data-aos='fade-up' class="latest-blog-inner p-0 d-flex gap-3 my-4">
+                            <div class="latest-blog-inner-img">
+                                <img src="{% static "images/blog-3.jpeg" %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="latest-blog-inner-content">
+                                <h6 class='mb-2'>Planning your online business</h6>
+                                <span>Febraury 27,2024</span>
+                            </div>
+                        </div>
+                        <div data-aos='fade-up' class="latest-blog-inner p-0 d-flex gap-3 my-4">
+                            <div class="latest-blog-inner-img">
+                                <img src="{% static "images/blog-4.jpeg" %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="latest-blog-inner-content">
+                                <h6 class='mb-2'>Planning your online business</h6>
+                                <span>Febraury 27,2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+{% endblock content %}

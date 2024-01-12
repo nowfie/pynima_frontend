@@ -1,0 +1,63 @@
+{% extends "main.html" %}
+{% block content %}
+<div id="full-x">
+    {% load static %}
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-1 s-a">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-2 s-c">
+    <img src="{% static "images/31.webp" %}" alt="" class="img-fluid shade-3">
+    <img src="{% static "images/18.webp" %}" alt="" class="img-fluid shade-4">
+    <section class="col-12 d-flex justify-content-center align-items-center mb-5" id="indicator">
+        <h1 data-aos='fade-in'>Contact Us</h1>
+    </section>
+    <section class="col-12 pb-5" id="contact-msg-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="contact-msg">
+            <div class="row">
+                <div class="col-lg-6 col-12 me-auto my-auto">
+                    {% load static %}
+                    <img src="{% static "images/contact.png" %}" alt="" class="img-fluid  m-auto">
+                </div>
+                <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                    <h5 class='mb-3'>Get in touch</h5>
+                    <h1 class='mb-4'>We Provide Best Services.NNeed Help?</h1>
+                    <div class="contact-inputs d-flex flex-column p-4">
+                        <label class='mb-2' for="">Name</label>
+                        <input class='mb-3' type="text" >
+                        <label class='mb-2' for="">Email</label>
+                        <input class='mb-3' type="text"  >
+                        <label class='mb-2' for="">Message</label>
+                        <input class='mb-3 msg-input' type="text" >
+                        <button class="read-btn submit-btn  px-lg-4 mt-3 py-lg-3 px-4 py-3">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="col-12 py-5" id="contact-address-main">
+        <section class="col-lg-11 col-xl-9 col-11 m-auto" id="contact-address">
+            <div class="col-lg-12 col-12 m-auto" id='contact-ad'>
+                <h5 class='text-center mb-3' data-aos='fade-up'>Advance Digital Metrics</h5>
+                <h1 class='text-center mb-3' data-aos='fade-up'>Contact Us Via Our Social Channels.</h1>
+                <p class="text-center m-auto contact-para">Nulla eleifend, lectus eu gravida facilisis, ipsum metus faucibus eros, vitae vulputate nibh libero ac metus, phasellus magna erat, consectetur</p>
+                <div class="row col-12 m-auto contact-ad-flex mt-lg-5 mt-2 justify-content-between">
+                    <div class="col-lg-4 col-11 contact-ad-box tech-box text-center p-lg-4  pt-5 pb-4  mt-5 my-2 " data-aos='fade-up'>
+                        <i class="fa-solid fa-location-dot  p-3 mb-3 t-1" aria-hidden="true"></i>
+                        
+                        <h6>Location</h6>
+                        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="col-lg-4 col-11 contact-ad-box tech-box text-center p-lg-4 pt-5 pb-4 mt-5  my-2 " data-aos='fade-up'>
+                        <i class="fa fa-phone  p-3 mb-3 t-2" aria-hidden="true"></i>
+                        <h6>Contact Number</h6>
+                        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="col-lg-4 col-11 contact-ad-box tech-box tech-3 text-center p-lg-4 pt-5 pb-4  mt-5 my-2 " data-aos='fade-up'>
+                        <i class="fa fa-envelope  p-3 mb-3 t-3" aria-hidden="true"></i>
+                        <h6>Email Address</h6>
+                        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+{% endblock content %}
