@@ -2323,12 +2323,251 @@ input {
     #blog-home-main span {
         font-size: 11px;
     }
-    .blog-home-box-inner h4,
-    .blog-home-box h4 {
+    .blog-home-box-inner h4 {
         position: absolute;
         bottom: 5;
         left: 20;
         font-size: 8px;
+    }
+    .blog-home-box h4 {
+        position: absolute;
+        bottom: 75px;
+        left: 20;
+        font-size: 8px;
+    }
+    .used-box {
+        background-color: var(--text-color);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        border-radius: 10px;
+        position: relative;
+        width: 300px !important;
+    }
+    .home-content h1 {
+        color: var(--text-color-3);
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .brain {
+        width: 757px !important;
+        position: relative;
+        left: -135px;
+    }
+    .robot {
+        width: 106px !important;
+        position: absolute;
+        top: -11px;
+        left: 395px;
+        animation: up-down 5s linear infinite;
+    }
+    .road {
+        width: 95px !important;
+        position: absolute;
+        top: 315px;
+        left: 121px;
+        animation: road-1 5s linear infinite;
+    }
+    .road-2 {
+        width: 95px !important;
+        position: absolute;
+        top: 341px;
+        left: 151px;
+        animation: road-2 5s linear infinite;
+    }
+    .ball-1 {
+        width: 62px !important;
+        position: absolute;
+        top: 119px;
+        left: 68px;
+    }
+    .ball-2 {
+        width: 65px !important;
+        position: absolute;
+        top: 348px;
+        left: 453px;
+    }
+    .cube-2 {
+        width: 61px !important;
+        position: absolute;
+        top: 5px;
+        left: 117px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    #navmain {
+        background-color: var(--bg-color-prmiary);
+    }
+    #full {
+        padding-top: 80;
+        background-size: 430% !important;
+        background-position-x: -741px;
+        background-position-y: 84px;
+    }
+    #full-x {
+        padding-top: 80;
+    }
+    .product-box {
+        background-color: var(--text-color);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        width: 300px !important;
+        border-radius: 10px;
+    }
+    .blog-box {
+        background-color: var(--text-color);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        width: 300px !important;
+        border-radius: 10px;
+    }
+    .work-box {
+        width: 180px !important;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        border-radius: 10px;
+    }
+    .tech-box {
+        background-color: var(--text-color);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: relative;
+        width: 325px !important;
+        height: fit-content !important;
+        border-radius: 10px;
+    }
+    .update-box-grid {
+        background-color: #ffffff;
+        width: 240px !important;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    }
+    .blog-home-box h4 {
+        position: absolute;
+        bottom: 75px;
+        left: 20;
+        background-color: #1367fe;
+        color: var(--text-color);
+        width: fit-content;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .products-ind-content {
+        width: 752px !important;
+    }
+    .blog-ind-content {
+        width: 815px !important;
+    }
+    #about h1,
+    #tech h1,
+    #update h1,
+    #progress h1,
+    #history h1,
+    #solution h1,
+    #work h1,
+    #contact-msg-main h1,
+    #contact-address-main h1 {
+        font-size: 30px;
+    }
+    #about p,
+    #tech p,
+    #update p,
+    #progress p,
+    #history p,
+    #solution p,
+    #work p,
+    #blog-ind p,
+    #products-ind-main p,
+    #contact-address-main p {
+        font-size: 13px;
+    }
+    #about h3,
+    #tech h3,
+    #update h3,
+    #progress h3,
+    #history h3,
+    #solution h3,
+    #work h3,
+    #contact-address-main h3,
+    #contact-msg-main h3 {
+        font-size: 16px;
+    }
+    .solution-box {
+        width: 280px;
+    }
+    .blog-home-box-inner img {
+        width: 230px !important;
+        max-height: 97px;
+    }
+    .home-box-inner a {
+        font-size: 16px;
+    }
+    #blog-home-main span {
+        font-size: 11px;
+    }
+    .blog-home-box-inner h4 {
+        position: absolute;
+        bottom: 5;
+        left: 20;
+        font-size: 8px;
+    }
+    .blog-home-box h4 {
+        position: absolute;
+        bottom: 75px;
+        left: 20;
+        font-size: 8px;
+    }
+    .used-box {
+        background-color: var(--text-color);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+        border-radius: 10px;
+        position: relative;
+        width: 230px !important;
+    }
+    .home-content h1 {
+        color: var(--text-color-3);
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .brain {
+        width: 757px !important;
+        position: relative;
+        left: -135px;
+    }
+    .robot {
+        width: 106px !important;
+        position: absolute;
+        top: -11px;
+        left: 395px;
+        animation: up-down 5s linear infinite;
+    }
+    .road {
+        width: 95px !important;
+        position: absolute;
+        top: 315px;
+        left: 121px;
+        animation: road-1 5s linear infinite;
+    }
+    .road-2 {
+        width: 95px !important;
+        position: absolute;
+        top: 341px;
+        left: 151px;
+        animation: road-2 5s linear infinite;
+    }
+    .ball-1 {
+        width: 62px !important;
+        position: absolute;
+        top: 119px;
+        left: 68px;
+    }
+    .ball-2 {
+        width: 65px !important;
+        position: absolute;
+        top: 348px;
+        left: 453px;
+    }
+    .cube-2 {
+        width: 61px !important;
+        position: absolute;
+        top: 5px;
+        left: 117px;
     }
 }
 
