@@ -699,7 +699,7 @@ a {
 
 .update-box-grid {
     background-color: #ffffff;
-    width: 280px !important;
+    width: 48% !important;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
@@ -1130,7 +1130,7 @@ progress::-webkit-progress-bar {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
     border-radius: 10px;
     position: relative;
-    width: 250px !important;
+    width: 32% !important;
 }
 
 .used-box h5 {
@@ -1382,7 +1382,7 @@ progress::-webkit-progress-bar {
 .blog-box {
     background-color: var(--text-color);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-    width: 360px !important;
+    width: 31% !important;
     border-radius: 10px;
 }
 
@@ -1656,7 +1656,7 @@ input {
         width: 100% !important;
     }
     .blog-home-box h4 {
-        bottom: 75px;
+        bottom: 98px;
         left: 20;
         font-size: 12px;
     }
@@ -2137,7 +2137,7 @@ input {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: relative;
-        width: 340px !important;
+        width: 48% !important;
         height: fit-content !important;
         border-radius: 10px;
     }
@@ -2160,7 +2160,7 @@ input {
     }
     .update-box-grid {
         background-color: #ffffff;
-        width: 340px !important;
+        width: 48% !important;
         border-radius: 10px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
     }
@@ -2194,13 +2194,13 @@ input {
     .product-box {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-        width: 340px !important;
+        width: 48% !important;
         border-radius: 10px;
     }
     .blog-box {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-        width: 340px !important;
+        width: 48% !important;
         border-radius: 10px;
     }
     .used-box {
@@ -2208,7 +2208,7 @@ input {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
         border-radius: 10px;
         position: relative;
-        width: 340px !important;
+        width: 48% !important;
     }
     .tech-3 {
         width: 100% !important;
@@ -2231,13 +2231,13 @@ input {
     .product-box {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-        width: 300px !important;
+        width: 31% !important;
         border-radius: 10px;
     }
     .blog-box {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-        width: 300px !important;
+        width: 31% !important;
         border-radius: 10px;
     }
     .work-box {
@@ -2250,13 +2250,13 @@ input {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: relative;
-        width: 290px !important;
+        width: 31% !important;
         height: fit-content !important;
         border-radius: 10px;
     }
     .update-box-grid {
         background-color: #ffffff;
-        width: 225px !important;
+        width: 48% !important;
         border-radius: 10px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
     }
@@ -2340,7 +2340,7 @@ input {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
         border-radius: 10px;
         position: relative;
-        width: 300px !important;
+        width: 32% !important;
     }
     .home-content h1 {
         color: var(--text-color-3);
@@ -2409,13 +2409,13 @@ input {
     .product-box {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-        width: 300px !important;
+        width: 31% !important;
         border-radius: 10px;
     }
     .blog-box {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-        width: 300px !important;
+        width: 31% !important;
         border-radius: 10px;
     }
     .work-box {
@@ -2428,13 +2428,13 @@ input {
         background-color: var(--text-color);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: relative;
-        width: 325px !important;
+        width: 31% !important;
         height: fit-content !important;
         border-radius: 10px;
     }
     .update-box-grid {
         background-color: #ffffff;
-        width: 240px !important;
+        width: 48% !important;
         border-radius: 10px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
     }
@@ -2518,7 +2518,7 @@ input {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
         border-radius: 10px;
         position: relative;
-        width: 230px !important;
+        width: 32% !important;
     }
     .home-content h1 {
         color: var(--text-color-3);
@@ -2577,7 +2577,7 @@ input {
     }
     .update-box-grid {
         background-color: #ffffff;
-        width: 260px !important;
+        width: 48% !important;
         border-radius: 10px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
     }
@@ -2587,7 +2587,7 @@ input {
     }
     .product-box,
     .blog-box {
-        width: 340px !important;
+        width: 31% !important;
     }
     .products-ind-links-profile,
     .blog-ind-links-profile {
