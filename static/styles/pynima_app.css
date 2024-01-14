@@ -621,7 +621,7 @@ a {
 #update-main {
     /*background-image: url(/static/images/11-01.webp);
     background-size: 100%;*/
-    background-color: var(--bg-color-prmiary);
+    background-color: var(--bg-color-secondary);
     position: relative;
     padding-top: 120 !important;
     padding-bottom: 120 !important;
@@ -940,7 +940,7 @@ progress::-webkit-progress-bar {
 }
 
 .footer-details p {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--text-color);
     line-height: 1.9;
 }
@@ -976,8 +976,20 @@ progress::-webkit-progress-bar {
 .quick-links h3,
 .address h3 {
     color: var(--text-color);
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
+    position: relative;
+}
+
+.quick-links h3::before,
+.address h3::before {
+    content: '';
+    background-color: var(--btn-color);
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    bottom: -10;
+    left: 0;
 }
 
 .quick-links li,
@@ -985,7 +997,7 @@ progress::-webkit-progress-bar {
 .address p {
     color: var(--text-color);
     list-style-type: none;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .address i {
@@ -1002,6 +1014,14 @@ progress::-webkit-progress-bar {
     background-color: var(--btn-color);
     font-size: 1rem;
     border-radius: 50%;
+}
+
+.footer-copy {
+    color: var(--para-color);
+}
+
+.footer-copy h5 {
+    font-size: 13px;
 }
 
 
@@ -1809,6 +1829,26 @@ input {
     .product-box {
         width: 100% !important;
     }
+    #footer-main {
+        background-image: url(/static/images/footer-2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .footer-details p,
+    .quick-links li,
+    .address li {
+        font-size: 12px !important;
+        color: var(--text-color);
+        line-height: 1.9;
+    }
+    .quick-links h3,
+    .address h3 {
+        color: var(--text-color);
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
@@ -2215,6 +2255,26 @@ input {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer-details p,
+    .quick-links li,
+    .address li {
+        font-size: 13px !important;
+        color: var(--text-color);
+        line-height: 1.9;
+    }
+    .quick-links h3,
+    .address h3 {
+        color: var(--text-color);
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+    }
+    #footer-main {
+        background-image: url(/static/images/footer-2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
     #navmain {
         background-color: var(--bg-color-prmiary);
     }
