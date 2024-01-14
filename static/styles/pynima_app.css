@@ -265,7 +265,6 @@ a {
 
 #home-main {
     position: relative;
-    min-height: 100vh;
     overflow: visible;
 }
 
@@ -443,7 +442,7 @@ a {
     background-color: var(--text-color);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
-    width: 350px !important;
+    width: 31% !important;
     height: fit-content !important;
     border-radius: 10px;
 }
@@ -2603,6 +2602,6 @@ input {
         left: 0;
     }
     .tech-box {
-        width: 340px !important;
+        width: 31% !important;
     }
 }
