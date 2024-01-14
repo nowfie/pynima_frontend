@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-wm&^#bg&6r0$nb&6)mv2vyizd^y!=s+%9y33qft*8xoqgg@p%0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','192.168.77.4','192.168.71.4','192.168.156.4']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','192.168.77.4','192.168.71.4','192.168.156.4','pynimaFrontent1.pythonanywhere.com']
 
 
 # Application definition
