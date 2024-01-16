@@ -1350,7 +1350,7 @@ progress::-webkit-progress-bar {
 
 .blog-home-box h4 {
     position: absolute;
-    bottom: 55;
+    bottom: 75;
     left: 20;
     background-color: #1367fe;
     color: var(--text-color);
@@ -1409,13 +1409,16 @@ progress::-webkit-progress-bar {
     border-radius: 10px;
 }
 
-.blog-box h4 {
-    font-size: 14px;
-    color: var(--text-color-3);
+.blog-category {
+    font-size: 12px;
+    color: var(--text-color);
+    background-color: #1367fe;
+    border-radius: 5px;
 }
 
-.blog-box span {
+.blog-date {
     color: var(--para-color);
+    font-size: 10px;
 }
 
 .blog-box h1,
@@ -1675,7 +1678,7 @@ input {
         width: 100% !important;
     }
     .blog-home-box h4 {
-        bottom: 98px;
+        bottom: 115px;
         left: 20;
         font-size: 12px;
     }
@@ -2061,7 +2064,7 @@ input {
         font-size: 14px;
     }
     .blog-home-box h4 {
-        bottom: 81px;
+        bottom: 121px;
     }
     .blog-home-box h3 {
         font-size: 20px;
@@ -2663,5 +2666,10 @@ input {
     }
     .tech-box {
         width: 31% !important;
+    }
+    .blog-home-box h4 {
+        position: absolute;
+        bottom: 75px !important;
+        left: 20;
     }
 }
